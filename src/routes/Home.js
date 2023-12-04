@@ -137,7 +137,7 @@ const Home = () => {
   };
 
   const inProgressTaskHandler = (todo) => {
-    const id = inProgressList.length + 1;
+    // const id = inProgressList.length + 1;
     todo.inProgress = true;
     setTodoList((prev) => prev.filter((t) => t.id !== todo.id));
     setInProgessList((prev) => [...prev, todo]);
@@ -148,7 +148,7 @@ const Home = () => {
   };
 
   const completeTaskHandler = (todo) => {
-    const id = completedList.length + 1;
+    // const id = completedList.length + 1;
     todo.completed = true;
     setInProgessList((prev) => prev.filter((t) => t.id !== todo.id));
     setCompletedList((prev) => [...prev, todo]);
