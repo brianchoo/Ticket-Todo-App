@@ -2,11 +2,12 @@
 
 A simple todo app that is inspired by the ticketing system from JIRA.
 
+Website Url: [https://enchanting-kheer-0057d5.netlify.app/](https://enchanting-kheer-0057d5.netlify.app/)
+
 ## What technology is used
 
 1. React.js
 2. Material UI
-3. Webpack
 
 ## Installation
 
